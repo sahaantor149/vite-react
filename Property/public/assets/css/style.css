@@ -1965,6 +1965,12 @@ label span{
         -ms-transform:translateX(-260px);
         background-color:#6c60fe
     }
+
+    .header .active{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+    }
 }
 .header .logo{
     display:inline-block;
